@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dogs For Adoption</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .parent {
+      background-image: url(http://adoptdog.in/wp-content/uploads/2021/08/Dog-adoption.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      color: rgb(166, 35, 168);
+    }
+
+    .parent2 {
+      background-image: url(http://adoptdog.in/wp-content/uploads/2020/04/neve-pet-shop-02.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .heading2 {
+      text-align: center;
+      color: white;
+      font-size: 6rem;
+      font-weight: 800;
+    }
+
+    .child {
+      display: block;
+      text-align: center;
+      padding-top: 10%;
+    }
+
+    .section2 {
+      background-color: white;
+      height: 70vh;
+      margin-top: 15px;
+      padding-top: 20px;
+    }
+
+    .sample {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 5%;
+    }
+
+    .sample1 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .sample2 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .sample3 {
+      height: 50vh;
+      background-color: rgb(5, 5, 77);
+      text-align: center;
+      color: white;
+      padding-top: 5%;
+    }
+
+    .sample4 {
+      background-color: white;
+      margin-top: 15px;
+    }
+
+    .sample5 {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 3%;
+
+    }
+
+    .imagecard1 {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15px;
+    }
+
+    .imagecard2 {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15px;
+    }
+
+    .imagebackground {
+      background-image: url(http://adoptdog.in/wp-content/uploads/2020/04/neve-pet-shop-03.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .heading {
+      font-size: 200px;
+      text-align: center;
+      color: white;
+    }
+
+    .form {
+      background-color: rgb(161, 188, 205);
+       padding-left: 20%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img
+          src="//adoptdog.in/wp-content/uploads/2021/08/cropped-Adopt-Dog-Logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home" style="color: yellow;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Report a dog for adopation" style="color: yellow;">Report A Dog For Adoption</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="color: yellow;">
+              DOG BREEDS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#indie dogs">INDIE DOGS</a></li>
+              <li><a class="dropdown-item" href="#begal">BEGAL</a></li>
+              <li><a class="dropdown-item" href="#mountain dog">MOUNTAIN DOG</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="color: yellow;">
+              LOCATION
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">MUMBAI</a></li>
+              <li><a class="dropdown-item" href="#">PUNE</a></li>
+              <li><a class="dropdown-item" href="#">HYDERABAD</a></li>
+              <li><a class="dropdown-item" href="#">CHENNAI</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about" style="color: yellow;">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact" style="color: yellow;">CONTACT</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="SHOP PET PRODUCTS" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">SEARCH</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <div class="parent">
+      <div class="child">
+        <h1 style="font-size: 6rem;font-weight: 900;">Find A Dog To Adopt</h1>
+        <h1>Start your Dog Adoption Journey with Our Free Dog Finder<br> Tool</h1>
+      </div>
+      <div style="padding-left: 20%;">
+        <button style="width: 50%;height: 50px;border: 1px solid orange;">Find Your New Furry Friend</button>
+        <button style="border-radius: 20%;background-color: yellow;height: 50px;width: 100px;">search</button>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="parent2">
+      <div class="heading2">
+        <h1>ABOUT US</h1>
+      </div>
+    </div>
+    <div>
+      <h1 style="font-size: 3rem;font-weight: 500;text-align: center;">How to Adopt A Dog with Our Online Dog
+        Adoption<br> Platform</h1>
+    </div>
+    <div class="sample">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.3YrzwGuTBvyKCSiNva34vAHaHI&pid=Api&P=0&h=180" width="50px"
+        height="50px">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.kUZL9oH7oXI5nTYvSCdDuQHaIW&pid=Api&P=0&h=180" width="50px"
+        height="50px">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.u5UHH85dXsWkFrgmAigNmQHaG3&pid=Api&P=0&h=180" width="50px"
+        height="50px">
+    </div>
+    <div class="sample1">
+      <h1>Search</h1>
+      <h1>Choose</h1>
+      <h1>Adopt</h1>
+    </div>
+    <div class="sample2">
+      <p>Fill your details and click Enter</p>
+      <p>Choose the right dog for you and Get all the <br>necessary information</p>
+      <p>Get in touch with the team and adopt your new <br>furry friend</p>
+    </div>
+  </section>
+  <section id="Report a dog for adopation">
+    <div class="sample3">
+      <h1 style="font-size: 60px;">Give your Dog for Adoption</h1>
+      <h6 style="font-size: 30px;">Report a case of a dog that you want to put up for adoption </h6>
+      <button style="border-radius: 10%;background-color: yellow;width: 100px;height: 50px;">learn more</button>
+    </div>
+    <div style="padding-left: 20%;">
+    <form>
+      <label>EMAIL:</label><br>
+      <input type="mail" value="" placeholder="email"><br><br>
+      <label>CONTACT NO:</label><br>
+      <input type="number" value="" placeholder="contact"><br><br>
+      <label>BREED</label><br>
+      <input type="text" value="" placeholder="CHOOSE"><br><br>
+      <label>AGE</label><br>
+      <input type="number" value="" placeholder="CHOOSE"><br><br>
+      <label>TRAINED</label><br>
+      <input type="" value="" placeholder="CHOOSE"><br><br>
+      <label>DESCRPTION:</label><br>
+      <textarea cols="60" rows="4" value="self"> </textarea><br><br>
+      <button style="background-color: lightslategray;">ADOPT MY DOG</button>
+    </form>
+    </div>
+  </section>
+  <hr>
+  <section id="indie dogs">
+    <div class="sample4">
+      <h1>Adopt Indie Dogs</h1>
+      <h6>Find your new best furry friend with Adopt Dog. With just a few clicks you can find the perfect Indie dog for
+        Adoption.</h6>
+    </div>
+    <div class="sample5">
+      <h3>home/get/indie dogs</h3>
+      <h3>Showing 1–100 of 581 results</h3>
+    </div>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+        style="border: 1px solid; width: 150px; height: 30px;margin-top:30px;margin-left: 20px;">
+        SORT BY LATEST
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">SORT BY POPULARITY</a></li>
+        <li><a class="dropdown-item" href="#">SORT BY AVERAGE RATING</a></li>
+        <li><a class="dropdown-item" href="#">SORT BY PRICE LOW TO HIGH</a></li>
+      </ul>
+    </li>
+    <div class="imagecard1">
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2023/09/Ravi-Front-400x400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Ravi 4 month Old Indie Dog For Adoption In Hyderabad</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2023/09/Stella-Indie-Dog-for-Adoption-in-Hyderabad-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Stella 7 month Old Indie Dog For Adoption In Hyderabad</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2023/09/Pablo-Indie-Dog-for-Adoption-in-Delhi-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Pablo 10 month Old Indie Dog For Adoption In Delhi</p>
+        </div>
+      </div>
+    </div>
+    <div class="imagecard2">
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://adoptdog.in/wp-content/uploads/2023/09/Cloud-8-Month-Old-Indie-Dog-for-Adoption-in-Delhi-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Cloud 8 months Old Indie Dog For Adoption Delhi</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://adoptdog.in/wp-content/uploads/2023/09/Bruno-1.5-Month-Old-Indie-Puppy-for-Adoption-in-Delhi-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Bruno 1.5 months Old Indie Dog For Adoption In Delhi</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2023/09/Coco-5-Months-Old-Indie-Dog-for-Adoption-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Coco 5 months Old Indie Dog For Adoption In Hyderabad</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section id="begal">
+    <div class="sample4">
+      <h1>Adopt BEGAL Dogs</h1>
+      <h6>Find your new best furry friend with Adopt Dog. With just a few clicks you can find the perfect Indie dog for
+        Adoption.</h6>
+    </div>
+    <div class="sample5">
+      <h3>home/get/begal dogs</h3>
+      <h3>Showing 1–100 of 581 results</h3>
+    </div>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+        style="border: 1px solid; width: 150px; height: 30px;margin-top:30px;margin-left: 20px;">
+        SORT BY LATEST
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">SORT BY POPULARITY</a></li>
+        <li><a class="dropdown-item" href="#">SORT BY AVERAGE RATING</a></li>
+        <li><a class="dropdown-item" href="#">SORT BY PRICE LOW TO HIGH</a></li>
+      </ul>
+    </li>
+    <div class="imagecard1">
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2023/06/Cookie-Beagle-Dog-for-Adoption-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Cookie 2.5 year old Begale dog adopation in Delhi</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2022/11/Beagle-Dog-for-Adoption-in-Delhi-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Jaggu 2 year old Begale dog adopation in Delhi</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2022/11/Oscar-Beagle-Dog-for-Adoption-in-Delhi-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Oscar 4 year old Begale dog adopation in Delhi</p>
+        </div>
+      </div>
+    </div>
+    <div class="imagecard2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2022/11/Mango-Beagle-Puppy-400x400.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <p class="card-text">Mango 8 month old Begale puppy adopation in Mumbai</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2023/02/Bruno-Beagle-Dog-for-Adoption-400x400.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">bruno 1.5 year old Begale dog adopation in Guragon</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://adoptdog.in/wp-content/uploads/2022/12/Beagle-Dog-400x400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"> 5 year old Begale dog adopation in Hyderabad</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="imagebackground">
+      <div class="heading">
+        <h1>CONTACT US</h1>
+        <hr style="border-radius: 50%;color: orange; width: 100px;">
+      </div>
+    </div>
+    <div class="form">
+      <h1>GET IN TOUCH</h1>
+      <h6>Fill this form for a quick response from our team!</h6>
+      <form>
+        <label>NAME:</label><br>
+        <input type="text" value="" placeholder="first name">
+        <input type="text" value="" placeholder="first name"><br><br>
+        <label>EMAIL:</label><br>
+        <input type="mail" value="" placeholder="email"><br><br>
+        <label>COMMENT OR MESSAGE:</label><br>
+        <textarea cols="60" rows="4" value="self"> </textarea><br><br>
+        <button style="background-color: lightslategray;">submit</button>
+      </form>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
